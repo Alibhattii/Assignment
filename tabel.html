@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html>
+ 
+
+<head>
+
+    <title> Table</title>
+
+    <style>
+	@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+        body {
+            font-family: "Open Sans", sans-serif;
+			font-optical-sizing: auto;			
+            background-color:#FDF2F7;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+
+            text-align: center;
+			font-family: "Roboto", sans-serif;
+			font-weight:900;
+            color: #343a40;
+
+        }
+ 
+
+        table {
+
+            border-collapse: collapse;
+            margin: 20px auto;
+            background-color: #fff;
+            border: 2px solid black;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+        } 
+
+        th,
+		
+        td {
+			border: 1px solid black;
+			border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+			}
+ 
+
+        th {
+            background-color: #f2f2f2;
+            color: #343a40;
+			}
+ 
+
+        .highlight {
+            background-color: #f8f9fa;
+			}
+ 
+
+        .special {
+            background-color: #f0f0f0;
+        }
+		
+		
+		 body{
+			background-image:url('./image/time.jpg');
+			background-size:cover;
+			}
+			
+		.how{
+			margin-top:10px;
+			}	
+		
+
+    </style>
+
+</head>
+ 
+
+<body>
+
+    <h1><u> PERIOD SCHEDULE TABLE </u></h1>
+
+    <table class="how">
+
+        <tr>
+
+            <th>Day</th>
+			<th>01<br>08:00-08:45</th>
+            <th>01<br>08:45-09:30</th>
+            <th>02<br>09:30-10:15</th>
+            <th>03<br>10:15-11:00</th>
+            <th>04<br>11:00-11:30</th>
+            <th>05<br>11:30-12:15</th>
+            <th>06<br>12:15-1:00</th>  	   
+
+        </tr>
+
+        <tr>
+
+            <td class="highlight"><b>Monday</b></td>               
+            <td>Chemistry</td>
+            <td>Urdu</td>           
+            <td>Physics </td>
+			<td>English </td>
+            <td rowspan="5" class="special"><b>LUNCH</b></td>
+            <td>Math</td>
+			<td>Biology</td>           
+            
+        </tr>
+
+        <tr>
+
+            <td class="highlight"><b>Tuesday</b></td>         
+            <td>Biology</td>
+            <td>English</td>
+            <td>Math</td>
+            <td>Physics</td>
+			<td>Chemistry</td>
+			<td>Urdu</td>
+          
+        </tr>
+
+        <tr>
+
+            <td class="highlight"><b>Wednesday</b></td>
+            <td>Chemistry</td>
+            <td>Physics</td>
+            <td>Biology</td>
+            <td>Math</td>
+			<td>Urdu</td>
+            <td>English</td>
+                   
+        </tr>
+
+        <tr>
+
+            <td class="highlight"><b>Thursday</b></td>
+            <td>English</td>
+            <td>Physics</td>
+            <td>Urdu</td>
+            <td>Math</td>
+			<td>Biology</td>
+            <td>Chemistry</td>               
+            
+        </tr>
+
+        <tr>
+
+            <td class="highlight"><b>Friday</b></td>          
+            <td>Biology</td>
+            <td>Chemistry</td>
+            <td>Physics</td>
+            <td>Math</td>
+			<td colspan="2" class="special">SHORT DAY</td>
+
+        </tr>
+
+        <tr>
+
+            <td class="highlight"><b>Saturday</b></td>
+            <td colspan="7" class="special">SPORTS DAY</td>
+        </tr>
+		
+		<tr>
+		
+		 <td class="highlight"><b>Sunday</b></td>
+		 <td colspan="7" class="special">Weekend</td>
+		 
+		</tr>
+
+    </table>
+
+</body>
+ 
+
+</html>
