@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+
+    
+   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    .header{
+        width:100vw;
+        height:40px;
+        background-color:aqua;
+        /* border:2px solid black; */
+        /* display: flex; */
+        justify-content:space-between;
+    }
+    .mainpart{
+        margin-top:20px;
+        display:flex;
+        justify-content: space-between;
+        gap:20px;
+    }
+    .aside{
+        height: 400px;
+        width: 250px;
+        background-color: rgb(76, 230, 127);
+        font-size: large;
+    }
+    .article{
+        height: 400px;
+        width: 250px;
+        background-color:rgb(228, 118, 54);
+        flex-grow: 1;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 2px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;        
+        font-size: 1rem;
+        text-align: center;
+        
+    }
+    .image1{
+        height: 102px;
+        width: 210px;
+        background-color:  rgb(238, 226, 55);
+        margin-top: 289px;
+        border-radius: 5px;
+        
+
+    }
+    .image2{
+        height: 102px;
+        width: 210px;
+        background-color: rgb(238, 226, 55);
+        margin-top: 289px;
+        border-radius: 5px;
+        
+    }
+    .image3{
+        height: 102px;
+        width: 210px;
+        background-color: rgb(238, 226, 55);
+        margin-top: 289px;
+        border-radius: 5px;
+        
+    }
+    .footer{
+        margin-top: 20px;
+        width: 100vw;
+        height: 70px;
+        background-color:aqua;
+        /* border: 2px solid rgb(0, 0, 0); */   
+        
+    
+    }
+    #first{
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;        
+        font-size: 2rem;
+        text-align: center;
+       
+    }
+    #sec{
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;        
+        font-size: 2rem;
+        text-align: center;
+    }
+    #third{
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;        
+        font-size: 2rem;
+        text-align: center;
+    }
+    #four{
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;        
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    
+   </style>
+</head>
+<body>
+    <div>
+        <div class="header"><h1 id="first">Header</h1></div>
+        <div class="mainpart">
+            <div class="aside"><br><br><br><br><br><br><br><h1 id="sec"> Aside</h1></div>
+            <div id="class" class="article" >
+                <div><h1 id="third">Article</h1></div>
+                <div class="image1"><h1 align="center" >Image</h1></div>
+                <div class="image2"><h1 align="center">Image</h1></div>
+                <div class="image3"><h1 align="center">Image</h1></div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="footer"><h1 id="four">Footer</h1></div>
+    </div>
+</body>
+</html>
